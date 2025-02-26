@@ -1,4 +1,4 @@
-# sinmple-chatbot
+# open-webui-chatbot
 
 This project specifies the development environment for
 using [DeepSeek R1](https://www.deepseek.com/)
@@ -7,7 +7,7 @@ and [Open-WebUI](https://www.openwebui.com/)
 on your local workstation.
 
 There is no source code! The sole purpose of this project is to set up
-a virtual environment in which to run Open-WebUI.
+a virtual environment in which to run `Open-WebUI`.
 
 ## Contents
 
@@ -33,12 +33,12 @@ through the `Open-WebUI` interface.
 
 ## Step 2: Run Open-WebUI
 
-I found it easiest to run Open-WebUI from a Docker container,
-but it is also possible to run Open-WebUI from the command line.
+I found it easiest to run `Open-WebUI` from a Docker container,
+but it is also possible to run `Open-WebUI` from the command line.
 
 ### Option 1: Run Open-WebUI in a Docker container
 
-This command starts the image running in the background:
+This command starts an image running in the background:
 
 ```shell
 docker run -d -p 3000:8080 \
@@ -72,7 +72,7 @@ to install correctly. I am using macOS Sequoia 15.3.1 with an Apple M4 Pro chip.
 When I tried to use Python 3.12 or 3.13, the package installation failed, even though
 the [open-webui documentation](https://pypi.org/project/open-webui/) says that it
 is compatible with Python 3.12.
-If failed to install [open-webui](https://docs.openwebui.com/)'s dependencies due to some packages
+It failed to install [open-webui](https://docs.openwebui.com/)'s dependencies due to some packages
 not being available for my environment.
 
 #### 2. Install Open-WebUI
@@ -115,7 +115,7 @@ for instructions on how to perform those tasks.
 
 MIT License
 
-Copyright (c) 2025 Jim Tyhurst
+Copyright (c) 2025 [Jim Tyhurst](https://jimtyhurst.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
