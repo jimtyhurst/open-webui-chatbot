@@ -1,0 +1,9 @@
+[project]
+name = "bot"
+version = "0.1.0"
+description = "Development environment for using DeepSeek R1 with Ollama and Open-WebUI."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "open-webui>=0.5.16",
+]
